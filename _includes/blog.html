@@ -1,0 +1,14 @@
+<section class="blog-container">
+
+	<h3 id="blog">Blog</h3>
+	<div id="blog-wrapper">
+	{% for post in site.posts %}
+		<div class="blog-block">
+			<div class="blog-title"><a href="{{ post.url }}">{{ post.title }}</a></div>
+			<div class="blog-date">{{ post.date | date: "%b %-d, %Y" }}</div>			
+			<div class="blog-excerpt">{{ post.excerpt | truncatewords:26 }}</div>
+		</div>
+	{% endfor %}
+	</div>
+
+</section>

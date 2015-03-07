@@ -1,0 +1,32 @@
+<section class="gray-back section-work">
+
+	<a name="backtotop"><h3 id="work">Selected Work</h3></a>
+
+	<div class="work-slider">
+
+		<div class="thumb-wrap">
+			<div class="thumb-container">
+				{% for i in site.data.settings.projects %}
+				<div class="thumb-unit" data-folder="{{i.folder}}" style="background-image: url('/assets/img/work/{{i.folder}}/thumb.jpg')">
+					<div class="thumb-overlay">
+						<strong>{{i.name}}</strong>
+					</div>	
+				</div>	
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="work-wrap">
+			<div class="work-container">
+				<div class="work-return">
+					{% include icons/icon-back.html %}
+				</div>
+				<h4 class="project-title"></h4>
+				<div class="project-load"></div>
+				<div class="backtotop"><a href="#backtotop">Back to Top</a></div>
+			</div>
+		</div>
+
+	</div>
+
+</section>
