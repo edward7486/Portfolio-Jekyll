@@ -2,10 +2,10 @@
 
 projects:
 - {name: Apptio UI Design, folder: 'apptio-ui', file: 'work/apptio-ui.html'}
-- {name: Vertafore Internship, folder: 'vertafore', file: 'work/vertafore.html'}
+- {name: Ignite Seattle Rebrand, folder: 'ignite', file: 'work/ignite.html'}
 - {name: Cisco Capstone (In Progress), folder: 'cisco', file: 'work/cisco.html'}
 - {name: Fitnamo, folder: 'fitnamo', file: 'work/fitnamo.html'}
 - {name: Annotated Wireframes, folder: 'wireframe', file: 'work/wireframe.html'}
 - {name: Data Visualizations, folder: 'viz', file: 'work/viz.html'}
-- {name: Integrated User Comments (In Progress), folder: 'finalviz', file: 'work/finalviz.html'}
+- {name: Vertafore Internship, folder: 'vertafore', file: 'work/vertafore.html'}
 - {name: Apptio Sitemap, folder: 'sitemap', file: 'work/sitemap.html'}

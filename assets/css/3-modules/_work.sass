@@ -22,7 +22,7 @@
 
 	.thumb-unit
 		width: 25%
-		background: pink
+		background: $accent
 		display: block
 		float: left
 		position: relative
@@ -62,6 +62,9 @@
 				font-weight: 300
 				font-size: 24px
 				line-height: 1.2
+				@media screen and (max-width: 960px)
+					font:	
+						size: 1.2em
 
 		&:hover .thumb-overlay
 			top: 0%
